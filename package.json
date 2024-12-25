@@ -1,6 +1,10 @@
 {
-  "name": "my-math-lib",
-  "version": "0.0.0",
+  "name": "@jimmy8623032/math",
+  "version": "1.0.0",
+  "main": "dist/math/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
