@@ -1,9 +1,6 @@
 {
   "name": "@jimmy8623032/math",
-  "version": "1.0.0",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
+  "version": "1.0.11",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -40,13 +37,17 @@
     "typescript": "~5.5.2"
   },
   "description": "要在 Angular 18 中建立可供其他專案引用的套件（例如包含加、減、乘、除運算方法），並將這些專案存放在私人 GitHub 儲存庫中，您可以按照以下步驟進行：",
+  "main": "dist/math/fesm2022/math.mjs",
+  "types": "dist/math/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jimmy8623032/my-math-lib.git"
   },
   "author": "",
   "license": "ISC",
-  "types": "./dist/math/index.d.ts",
   "bugs": {
     "url": "https://github.com/jimmy8623032/my-math-lib/issues"
   },

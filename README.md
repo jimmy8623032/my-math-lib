@@ -44,7 +44,8 @@ git remote add origin https://github.com/your-username/my-math-lib.git
 ```bash
 git add .
 git commit -m "Initial commit"
-git push -u origin master
+git push -u origin mian
 ```
 
 ## 5. 在另一個 Angular 專案中引用庫：
+參考另一個專案：my-first-lib
